@@ -1,0 +1,105 @@
+.admin-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  color: black;
+}
+
+.admin-modal {
+  background: #fff;
+  width: 90%;
+  max-width: 1100px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.admin-header h3 {
+  margin: 0;
+  color: #2f3fa4;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.loading,
+.empty {
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.admin-table th {
+  background: #ededed;
+  font-weight: 700;
+}
+
+.kategori-select {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+}
+
+.aksi {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.btn-approve {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-approve:hover {
+  background: #15742a;
+}
+
+.btn-reject {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-reject:hover {
+  background: #a51524;
+}
